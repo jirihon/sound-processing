@@ -19,7 +19,7 @@ Workflow for sound editing in Audacity and export to mp3 using ffmpeg.
 
 ## Fade Out
 
-1. **AdjustableFade** curve="0" gain0="0" gain1="100" preset="None" type="SCurveDown" units="Percent"
+1. **AdjustableFade** curve="0" gain0="100" gain1="0" preset="None" type="SCurveDown" units="Percent"
 2. **Select** Start="0" End="-4" Mode="Set" RelativeTo="SelectionEnd"
 3. **Silence** Use_preset="<Current Settings>"
 4. **CursorRight**
